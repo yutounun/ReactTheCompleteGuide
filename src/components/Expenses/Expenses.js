@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 import Card from "../UI/Card";
 import "./Expenses.css";
 
-function Expenses() {
+const Expenses = () => {
   const expenses = [
     {
       date: new Date(2022, 1, 1),
@@ -50,6 +50,6 @@ function Expenses() {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;
